@@ -1,0 +1,170 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+% Compile:
+%   xelatex cv.xtx
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\documentclass[]{my_cv}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{David}{Beinhauer}{
+\href{mailto:david.beinhauer@email.cz}{david.beinhauer@email.cz}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/dbeinhauer}{\bf dbeinhauer} \\
+LinkedIn://  \href{https://www.linkedin.com/in/david-beinhauer-a0221a247/}{\bf david-beinhauer} \\
+Email:// \href{mailto:david.beinhauer@email.cz}{david.beinhauer@email.cz} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\descript{Proficient}
+
+Python \textbullet{} C++ 
+\halfsectionspace % Some whitespace after the section
+
+\descript{Familiar}
+Linux \textbullet{} TensorFlow \textbullet{} Scikit-learn \textbullet{} Bash \textbullet{} 
+Matplotlib \textbullet{} C\# \textbullet{} Prolog \textbullet{} Haskell 
+\textbullet{} LaTeX 
+
+\sectionspace % Some whitespace after the section
+
+\sectionspace % Some whitespace after the section
+
+\descript{Computer science}
+
+ML \textbullet{} Deep learning \textbullet{} Linear algebra 
+\textbullet{} Software architecture \textbullet{} Logic programming \textbullet{} Evolutionary algos 
+\textbullet{} \\ \ldots 
+
+\sectionspace % Some whitespace after the section
+
+\section{Languages}
+
+Czech - Native proficiency \\
+English - Professional proficiency \\
+Spanish - Elementary proficiency 
+
+\sectionspace % Some whitespace after the section
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{MSc. in Bioinformatics}
+\location{
+Charles University | Prague \\
+Sep 2022 - Present
+}
+
+\halfsectionspace % Some whitespace after the section
+
+\subsection{BSc. in Computer Science}
+\location{
+Charles University | Prague \\
+Sep 2019 - Sep 2022
+}
+Specialization in Artificial Intelligence/Machine learning. \\
+Received scholarship for academic excellence. \\
+GPA: 1.28 (1-4 | 1 is best) \\
+BSc. thesis: Optimization of the Placement of Electric Vehicle Charging Stations 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+%------------------------------------------------
+
+\runsubsection{Optimization of the Placement of Electric Vehicle Charging Stations}
+\descript{| BSc. thesis}
+\emptyLocation % Hack to make following text correct size
+\begin{tightitemize}
+\item Implementation of traffic simulator written in C++ and Python.
+\item Application of genetic algorithms and ML algorithms in order to optimize placement of the charging stations.
+\item Code Github:// \href{https://github.com/dbeinhauer/bcs-source}{\bf dbeinhauer/bcs-source} \\
+\item Text Github (only in Czech):// \href{https://github.com/dbeinhauer/bcs-thesis}{\bf dbeinhauer/bcs-thesis}
+\end{tightitemize}
+
+\halfsectionspace % Some whitespace after the section
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
