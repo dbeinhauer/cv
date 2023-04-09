@@ -80,19 +80,23 @@ Python \textbullet{} C++
 \halfsectionspace % Some whitespace after the section
 
 \descript{Familiar}
-Linux \textbullet{} TensorFlow \textbullet{} Scikit-learn \textbullet{} Bash \textbullet{} 
-Matplotlib \textbullet{} C\# \textbullet{} Prolog \textbullet{} Haskell 
-\textbullet{} LaTeX \textbullet{} Git
-
-\sectionspace % Some whitespace after the section
+Linux \textbullet{} TensorFlow \textbullet{} Scikit-learn \textbullet{} Bash 
+\textbullet{} PyMol \textbullet{} Julia \textbullet{} SQL
+\textbullet{} C\# \textbullet{} \\
+Git \textbullet{} Haskell \textbullet{} Prolog \textbullet{} LaTeX
 
 \sectionspace % Some whitespace after the section
 
 \descript{Computer science}
 
 ML \textbullet{} Deep learning \textbullet{} Linear algebra 
-\textbullet{} Software architecture \textbullet{} Logic programming \textbullet{} Evolutionary algos 
-\textbullet{} \\ \ldots 
+\textbullet{} Evolutionary algos \textbullet{} Functional programming
+\textbullet{} \ldots 
+
+\sectionspace % Some whitespace after the section
+
+\descript{Bioinformatics}
+Genomics \textbullet{} Computational neuroscience \textbullet{} \ldots
 
 \sectionspace % Some whitespace after the section
 
@@ -158,7 +162,8 @@ BSc. thesis: Optimization of the Placement of Electric Vehicle Charging Stations
 \descript{| BSc. thesis}
 \emptyLocation % Hack to make following text correct size
 \begin{tightitemize}
-\item Implementation of traffic simulator written in C++ and Python.
+\item Implementation of traffic simulator in C++.
+\item Data analysis in Python.
 \item Application of genetic algorithms and ML algorithms in order to optimize placement of the charging stations.
 \item Code Github:// \href{https://github.com/dbeinhauer/bcs-source}{\bf dbeinhauer/bcs-source} \\
 \item Text Github (only in Czech):// \href{https://github.com/dbeinhauer/bcs-thesis}{\bf dbeinhauer/bcs-thesis}
