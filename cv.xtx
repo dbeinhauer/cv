@@ -64,6 +64,30 @@ Github:// \href{https://github.com/dbeinhauer}{\bf dbeinhauer} \\
 LinkedIn://  \href{https://www.linkedin.com/in/david-beinhauer-a0221a247/}{\bf david-beinhauer} \\
 Email:// \href{mailto:david.beinhauer@email.cz}{david.beinhauer@email.cz} 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{MSc. in Bioinformatics}
+\location{
+Charles University | Prague \\
+Sep 2022 - Present
+}
+GPA: 1.33 (1-4| 1 is the best) \\
+
+\halfsectionspace % Some whitespace after the section
+
+\subsection{BSc. in Computer Science}
+\location{
+Charles University | Prague \\
+Sep 2019 - Sep 2022
+}
+Artificial Intelligence/Machine learning. \\
+GPA: 1.28 (1-4| 1 is the best) \\
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,29 +98,32 @@ Email:// \href{mailto:david.beinhauer@email.cz}{david.beinhauer@email.cz}
 
 \section{Skills}
 
-\descript{Proficient}
-
-Python \textbullet{} C++ 
+\descript{Knowledgeable}
+Python
 \halfsectionspace % Some whitespace after the section
 
 \descript{Familiar}
-Linux \textbullet{} TensorFlow \textbullet{} Scikit-learn \textbullet{} Bash 
-\textbullet{} PyMol \textbullet{} Julia \textbullet{} SQL
-\textbullet{} C\# \textbullet{} \\
-Git \textbullet{} Haskell \textbullet{} Prolog \textbullet{} LaTeX
+C++ \textbullet Bash \textbullet{} Julia \textbullet{} SQL
+\textbullet{} C\# \textbullet{} LaTeX
+
+\descript{Technologies Used}
+Git \textbullet{} AWS \textbullet{} PyTorch \textbullet{} 
+TensorFlow \textbullet{} Scikit-learn \textbullet{} PyMol
 
 \sectionspace % Some whitespace after the section
 
 \descript{Computer science}
 
-ML \textbullet{} Deep learning \textbullet{} Linear algebra 
-\textbullet{} Evolutionary algos \textbullet{} Functional programming
-\textbullet{} \ldots 
+ML \textbullet{} Deep learning \textbullet{} NLP \textbullet{} 
+Software Development \textbullet{} Cluster Computing \textbullet{} 
+Linear algebra \textbullet{} \dots 
 
 \sectionspace % Some whitespace after the section
 
 \descript{Bioinformatics}
-Genomics \textbullet{} Computational neuroscience \textbullet{} \ldots
+Computational neuroscience \textbullet{} Biological Data Processing 
+\textbullet{} Structural Biology \textbullet{}
+Genomics \textbullet{}  \ldots
 
 \sectionspace % Some whitespace after the section
 
@@ -120,34 +147,31 @@ Spanish - Elementary proficiency
 \begin{minipage}[t]{0.66\textwidth} 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education} 
-
-\subsection{MSc. in Bioinformatics}
-\location{
-Charles University | Prague \\
-Sep 2022 - Present
-}
-
-\halfsectionspace % Some whitespace after the section
-
-\subsection{BSc. in Computer Science}
-\location{
-Charles University | Prague \\
-Sep 2019 - Sep 2022
-}
-Specialization in Artificial Intelligence/Machine learning. \\
-Received scholarship for academic excellence. \\
-GPA: 1.28 (1-4 | 1 is best) \\
-BSc. thesis: Optimization of the Placement of Electric Vehicle Charging Stations 
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience} 
+
+\runsubsection{MSD Czech Republic}
+\descript{| NLP Intern}
+\emptyLocation % Hack to make following text correct size
+\location{
+Oct 2023 - Present | Prague
+}
+\begin{tightitemize}
+\item Collaborated within the Custom Engineering AI group to develop natural language processing (NLP) solutions, primarily using large language models (LLMs), to support various internal teams.
+\item Contributed to projects such as:
+\begin{tightitemize}
+ \item Extracting target abstracts from scientific papers.
+ \item Developing a demo of a Retrieval-Augmented Generation (RAG) solution for retrieving information from a database of internal scientific papers.
+ \item Validating metadata accuracy by analyzing extracted text from scientific papers.
+\end{tightitemize}
+\end{tightitemize}
+
+
+\halfsectionspace % Some whitespace after the section
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,6 +181,20 @@ BSc. thesis: Optimization of the Placement of Electric Vehicle Charging Stations
 \section{Projects}
 
 %------------------------------------------------
+\runsubsection{Modeling spatio-temporal dynamics in primary visual cortex using deep neural network model}
+\descript{| MSc. thesis (Ongoing)}
+\emptyLocation % Hack to make following text correct size
+\begin{tightitemize}
+\item Conducted within the \textbf{Computational Systems Neuroscience Group (CSNG)} at Charles University.
+\item Developed biologically inspired deep neural network (DNN) models to study neural responses in the primary visual cortex (V1).
+\item Designed a multi-stage recurrent neural network (RNN) constrained by known anatomical structures to reflect the recurrent nature of biological networks.
+\item Trained the model on neural recordings from macaque V1 and synthetic data generated by a spiking V1 model.
+\item Introduced a novel approach by replacing RNN neurons with shared small DNNs to model complex non-linear spiking neuron behavior.
+\item Focused on capturing fine temporal dynamics of V1 responses to natural images.
+\item Code Github:// \href{https://github.com/dbeinhauer/mcs-source}{\bf dbeinhauer/mcs-source} \\
+\end{tightitemize}
+
+\halfsectionspace % Some whitespace after the section
 
 \runsubsection{Optimization of the Placement of Electric Vehicle Charging Stations}
 \descript{| BSc. thesis}
@@ -170,6 +208,20 @@ BSc. thesis: Optimization of the Placement of Electric Vehicle Charging Stations
 \end{tightitemize}
 
 \halfsectionspace % Some whitespace after the section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+\begin{tightitemize}
+\item \textbf{Scholarship for Academic Excellence} – Charles University
+\begin{tightitemize}
+
+\item Awarded twice to the top-performing students of the academic year based on GPA.
+\end{tightitemize}
+
+\end{tightitemize}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
